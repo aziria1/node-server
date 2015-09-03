@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+#adra{
+  width: 55px;
+  height:45px;
+  position: fixed;
+  top: 5px;
+}
+.nav a {
+  color: white;
+  font-family: Montserrat;
+  font-weight: 100;
+  font-size: 13px;
+  letter-spacing: 2px;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-style: normal;
+  padding: .75em 1em;
+}
+.thisnavbar{
+  margin-top: 24px;
+  background-color: transparent;
+}
+.button-border{
+  border: solid 2px white;
+  padding: 0;
+}
+
+.button-border:hover {
+  border: solid 2px white;
+}
+
+.navbar-nav > li > a:last-child {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-radius: 1px;
+}
+/*Video*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+#wrapper {
+	position: fixed;
+    top: 0;
+    left: 0;
+    border: 0;
+    z-index: 1; /* <-- this plays a key roll for it to work */
+    width: 100%; !important /* <-- this plays a key roll for it to work */
+    height: 100%;
+	margin:0;
+	padding:0;
+}
+.vertical-center {
+  z-index:2;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 120px;
+}
+#entrance{
+  font-family: EB Garamond;
+  font-size: 24;
+  letter-spacing: 1px;
+  font-style: italic;
+  margin: 20px;
+}
+#sc{
+  font-family: Montserrat;
+  color: #73C099;
+  letter-spacing: 0.0571428571428571em;
+  text-transform: uppercase;
+  font-size: 70px;
+}
