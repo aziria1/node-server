@@ -1,7 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-#adra{
+
+#adra {
   width: 55px;
   height:45px;
   position: fixed;
@@ -9,7 +10,7 @@
 }
 .nav a {
   color: white;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-weight: 100;
   font-size: 13px;
   letter-spacing: 2px;
@@ -22,7 +23,7 @@
   margin-top: 24px;
   background-color: transparent;
 }
-.button-border{
+.button-border {
   border: solid 2px white;
   padding: 0;
 }
@@ -59,19 +60,64 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   color: white;
   text-align: center;
   vertical-align: middle;
-  margin-top: 120px;
+  margin-top: 100px;
 }
 #entrance{
-  font-family: EB Garamond;
+  font-family: "EB Garamond";
   font-size: 24;
   letter-spacing: 1px;
   font-style: italic;
-  margin: 20px;
 }
+
 #sc{
-  font-family: Montserrat;
+  font-family: "Montserrat";
   color: #73C099;
   letter-spacing: 0.0571428571428571em;
   text-transform: uppercase;
   font-size: 70px;
+  margin: 20px;
+}
+.specialbutton{
+  font-family: "Montserrat";
+  font-size: 13;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 26px;
+  padding-right: 26px;
+  border-radius: 1px;
+  line-height: 20px;
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 15px;
+}
+/* CSS for Phones */
+@media (max-width: 768px) {
+  .thisnavbar {
+    margin-top: 24px;
+    background-color: transparent;
+  }
+
+  .vertical-center {
+    z-index:2;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 30px;
+  }
+
+  #entrance {
+    font-family: "EB Garamond";
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin: 20px;
+}
+  #sc {
+    font-family: "Montserrat";
+    color: #73C099;
+    letter-spacing: 0.0571428571428571em;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
 }
