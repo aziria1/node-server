@@ -11,12 +11,6 @@
     <script src="js/main.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div class= "row">
-        <div class= "cl-md-12">
-          <video id="wrapper" autoplay loop ?wmode=transparent>
-            <source src= "images/tmcity.mp4" type="video/mp4">
-          </video>
     <nav class="navbar navbar-fixed-top thisnavbar" id="NavJs">
       <div class="container">
         <div class="navbar-header">
@@ -26,34 +20,41 @@
         <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html">
-        <img id="adra" src="images/adra2.png"> </a>
+        <img id="adra" src="images/azirialogoblanco.png"> </a>
         </div>
         <div class="collapse navbar-collapse navHeaderCollapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html"> Home </a></li>
-          <li><a href="portfolio.html"> Portfolio </a></li>
-          <li><a href="about.html">About<span class="sr-only">(current)</span></a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a class="btn button-border" href="contact.html">Contact</a></li>
+          <li><a href="#home" onclick="redirectTo('home.html')"> Home </a></li>
+          <li><a href="#resume" onclick="redirectTo('resume.html')">Resume</a></li>
+          <li><a class="btn button-border" href=#contact onclick="redirectTo('contact.html')">Contact</a></li>
         </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-  </div>
-</div>
-  <div class="row">
-   <div class="col-md-12 col-sx-12 vertical-center">
-     <div class="row">
-       <div class="col-sx-12">
-         <h3 id="entrance"> <em> I'm a social scientist and software developer with a passion for </em> </h3>
-       </div>
-       <div class="col-sx-12">
-         <h1 id="sc"> Social Change </h1>
-       </div>
-       <div class="col-sx-12">
-         <a class="btn button-border specialbutton" href="contact.html">Contact</a>
-         <a class="btn button-border specialbutton" href="resume.html">Resume</a>
+    <div class="container" id="content">
+      <div class= "row">
+        <div class= "col-md-12">
+          <video id="wrapper" autoplay loop ?wmode=transparent>
+            <source src= "images/videoblancoynegro.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="row">
+       <div class="col-md-12 col-xs-12 col-sm-12 vertical-center">
+         <div class="row">
+           <div class="col-xs-12">
+             <h3 id="entrance"> <em> I'm a social scientist and software developer with a passion for </em> </h3>
+           </div>
+           <div class="col-xs-12">
+             <h1 id="sc"> Social Change </h1>
+           </div>
+           <div class="col-xs-12">
+             <a class="btn button-border specialbutton" href="#contact" onclick="redirectTo('contact.html')">Contact</a>
+             <a class="btn button-border specialbutton" href="#resume" onclick="redirectTo('resume.html')">Resume</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </body>
+</html>

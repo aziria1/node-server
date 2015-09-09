@@ -1,4 +1,5 @@
-
-$(document).ready(function() {
-    $('#pruebajs').load('index.html #NavJs');
-});
+function redirectTo(url){
+  $.get(url, function(data){
+    $('#content').html(data);
+  });
+}

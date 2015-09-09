@@ -4,9 +4,11 @@
 /*Nav-bar*/
 #adra {
   width: 55px;
-  height:45px;
+  height:60px;
   position: fixed;
   top: 5px;
+  margin-top: -19px;
+  position:static;
 }
 .nav a {
   color: white;
@@ -25,8 +27,11 @@
 }
 .thisnavbar {
   margin-top: 24px;
-
+  margin-left: 20px;
+  margin-right: 20px;
+  z-index: 2;
 }
+
 .button-border {
   border: solid 2px white;
   padding: 0;
@@ -43,7 +48,6 @@
 
 .navbar-toggle{
   position: relative;
-  float: right;
   padding: 9px 10px;
   margin-top: 8px;
   margin-right: 15px;
@@ -62,11 +66,8 @@
 }
 .collapse a{
   position: relative;
-  float:right;
 }
-#adra{
-  margin-top: 20px;
-}
+
 /*Video*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -81,6 +82,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border: 0;
     z-index: 1;
     width: 100%; !important
+    height:100%;
 	  margin:0;
 	  padding:0;
 }
@@ -90,7 +92,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   color: white;
   text-align: center;
   vertical-align: middle;
-  margin-top: 220px;
+  margin-top: 20% !important;
+  position:fixed;
 }
 #entrance{
   font-family: "EB Garamond";
@@ -101,7 +104,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 #sc{
   font-family: "Montserrat";
-  color: #73C099;
+  color: #71c29a;
   letter-spacing: 0.0571428571428571em;
   text-transform: uppercase;
   font-size: 70px;
@@ -124,6 +127,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 .specialbutton:hover{
   background-color: #eee;
+}
+.container{
+  width: 100%;
 }
 /* CSS for Phones */
 @media (max-width: 768px) {
@@ -159,7 +165,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     color: white;
     text-align: center;
     vertical-align: middle;
-    margin-top: 350px;
+    margin-top: 20% !important;
   }
   #entrance {
     font-family: "EB Garamond";
@@ -170,7 +176,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   #sc {
     font-family: "Montserrat";
-    color: #73C099;
+    color: white;
     letter-spacing: 0.0571428571428571em;
     text-transform: uppercase;
     font-size: 30px;
@@ -198,7 +204,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .topimage{
   position:relative;
   height: 642px;
-  background-color: #ADA69E;
   top: -138px;
   background-image: url('../images/projects2.png');
 }
@@ -206,7 +211,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .topimage2{
   position:relative;
   height: 642px;
-  background-color: #ADA69E;
   top: -138px;
   background-image: url('../images/people1.png');
 }
@@ -214,17 +218,48 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .topimage3{
   position:relative;
   height: 642px;
-  background-color: #ADA69E;
   top: -138px;
+  width: 100%;
   background-image: url('../images/resume1.png');
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
 }
 /*contact*/
 .topimage4{
   position:relative;
   height: 642px;
-  background-color: #ADA69E;
+  width:100%;
   top: -138px;
+  vertical-align: top;
+  display: inline-block;
   background-image: url('../images/puente1.png');
+  margin-left: 0;
+  margin-right: 0;
+  background-color: black;
+}
+.overlay {
+  position: relative;
+}
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: none;
+  z-index:0;
+}
+
+.overlay:before{
+  display: block;
+}
+
+.black:before {
+  background-color: rgba(0,0,0,0.7);
 }
 
 .vertical-c{
@@ -232,14 +267,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   color: white;
   text-align: center;
   vertical-align: middle;
-  margin-top: 350px;
+  margin-top: 25%;
 }
 /* CSS for Phones */
 @media (max-width: 768px) {
   .topimage{
     position:relative;
     height: 642px;
-    background-color: #ADA69E;
     top: -138px;
     background-image: url('../images/projects2.png');
   }
@@ -250,4 +284,109 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: middle;
     margin-top: 350px;
   }
+  .image-size{
+    width: 235px;
+    height: 291px;
+    position:relative;
+  }
+  .image-size img{
+    width: 100%;
+    height: 100%;
+    margin-top: -40%;
+  }
+}
+/*contact page css*/
+.container{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bloq-content{
+  margin-top: -75px;
+  margin-left: 113px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+.bloq-content h2{
+  font-family: 'Montserrat';
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 1.2em;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 11px;
+  color: #black;
+}
+.bloq-content p{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  letter-spacing: 0;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 1.8em;
+  margin-bottom: 11px;
+  color: rgba(26,26,26,.6);
+}
+.bloq-content a{
+  border-bottom: 1px solid rgba(74,74,74,.2);
+  color: rgba(74,74,74,.9);
+  display: inline;
+  font-weight: 400;
+  text-decoration: none;
+}
+.button-resume{
+  margin-left: 113px;
+  padding-left: 33px;
+  padding-top: 34px;
+}
+.specialbutton-1{
+  font-family: "Montserrat";
+  font-size: 13;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 26px;
+  padding-right: 26px;
+  border-radius: 1px;
+  line-height: 20px;
+  color:black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: inherit;
+  border-color:black;
+}
+.specialbutton-1:hover{
+  background-color: black;
+  color:white;
+}
+.image-size{
+  width: 235px;
+  height: 291px;
+  position:relative;
+}
+.image-size img{
+  width: 100%;
+  height: 100%;
+  margin-top: -40%;
+}
+
+.navbar-bottom{
+  background-color: #26262a;
+  margin: 0;
+  width:100%;
+  height: 30%;
+}
+/*resume*/
+.container-bloc{
+  margin-left: 113px!important;
+}
+.inside1{
+  margin-top: -84px;
+}
+.texto{
+  margin: 2px;
+}
+.content h1{
+  margin: 10px;
 }
