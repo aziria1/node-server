@@ -24,8 +24,9 @@
 }
 .nav a:hover {
   color:black;
+}
+.nav li a:focus{
   background-color: transparent;
-
 }
 .thisnavbar {
   margin-top: 24px;
