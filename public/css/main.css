@@ -418,6 +418,7 @@ video {
 }
 .sqs-block-content{
   text-align: center;
+  margin-bottom: 50px;
 }
 #titletextp{
   font-family: "EB Garamond";
@@ -426,6 +427,7 @@ video {
   font-weight: 400;
   text-rendering: optimizeLegibility;
   margin-bottom: 17px;
+  color: #71c29A;
 }
 #parratextp{
   color: rgb(26,26,26,0.6);
