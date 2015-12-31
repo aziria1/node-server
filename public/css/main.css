@@ -211,6 +211,17 @@ video {
     }
 }
 /*Portfolio,About,Resume,Contact first div CSS*/
+.topimage{
+  position:relative;
+  height: 642px;
+  top: -160px;
+  width: 100%;
+  background-image: url('../images/projects2.png');
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+}
 .topimage2{
   position:relative;
   height: 642px;
