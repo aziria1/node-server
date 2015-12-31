@@ -413,3 +413,9 @@ video {
   margin: 10px;
 }
 /* Portoflio Page CSS */
+.sqs-col-8 {
+  width 66.6667%
+}
+.sqs-col {
+  float:left
+}
