@@ -413,6 +413,6 @@ video {
   margin: 10px;
 }
 /* Portoflio Page CSS */
-.sqs-row {
+.row.sqs-row {
   margin-top: -130px;
 }
