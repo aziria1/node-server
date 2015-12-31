@@ -414,5 +414,24 @@ video {
 }
 /* Portoflio Page CSS */
 .row.sqs-row {
-  margin-top: -130px;
+  margin-top: -120px;
+}
+.sqs-block-content{
+  text-align: center;
+}
+#titletextp{
+  font-family: "EB Garamond";
+  font-size: 34px;
+  line-height: 1.2em;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 17px;
+}
+#parratextp{
+  color: rgb(26,26,26,0.6);
+  font-size: 16px;
+  line-height: 28.8px;
+}
+.container-bloc{
+  margin-right: 90px!important;
 }
