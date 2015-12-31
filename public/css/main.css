@@ -441,3 +441,7 @@ a{
   text-decoration: none;
   color: #71c29A;
 }
+.img-responsive{
+  width: 700px;
+  height: 400px;
+}
