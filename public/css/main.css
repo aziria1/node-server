@@ -420,20 +420,7 @@ video {
   text-align: center;
   margin-bottom: 50px;
 }
-#titletextp{
-  font-family: "EB Garamond";
-  font-size: 34px;
-  line-height: 1.2em;
-  font-weight: 400;
-  text-rendering: optimizeLegibility;
-  margin-bottom: 17px;
-  color: #71c29A;
-}
-#parratextp{
-  color: rgb(26,26,26,0.6);
-  font-size: 16px;
-  line-height: 28.8px;
-}
+
 .container-bloc{
   margin-right: 90px!important;
 }
@@ -444,4 +431,22 @@ a{
 .img-responsive{
   width: 700px;
   height: 200px;
+}
+/*about page*/
+.title{
+  font-family: "EB Garamond";
+  font-size: 34px;
+  line-height: 1.2em;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 17px;
+  color: #71c29A;
+}
+.parragraph{
+  color: rgb(26,26,26,0.6);
+  font-size: 16px;
+  line-height: 28.8px;
+}
+#mam{
+  margin-top: 70px;
 }
