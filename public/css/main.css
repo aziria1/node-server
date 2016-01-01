@@ -493,6 +493,9 @@ opacity:0.9;
 
 
 /* resume stuff */
+#boton{
+  margin-left: -30px!important;
+}
 
 .bs-callout {
     -moz-border-bottom-colors: none;
